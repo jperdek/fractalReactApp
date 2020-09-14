@@ -7,7 +7,7 @@ services:
     
     
 before_install:   
-    - docker build -t xperdek/fractals -f Dockerfile.dev
+    - docker build -t xperdek/fractals -f Dockerfile.dev .
     
 script:
     - docker run -e CI=true xperdek/fractals npm run test   

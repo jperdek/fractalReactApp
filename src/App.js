@@ -234,7 +234,7 @@ class Fractal extends React.Component {
 	componentDidMount(){
 		var canvas = document.getElementById("game");
 		var context = canvas.getContext('2d');
-		var numberIterations = 2;
+		var numberIterations = 3;
 		var lineLength = 10;
 		var thickness = 1;
 		var distanceWidthRadius = 2;
